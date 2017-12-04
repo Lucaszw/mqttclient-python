@@ -1,2 +1,2 @@
-# mqttclient-python
+# @mqttclient/python
 Python MqttClient
