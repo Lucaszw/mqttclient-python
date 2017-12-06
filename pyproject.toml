@@ -3,8 +3,10 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
-module = "mqttclient_python"
+module = "mqttclient"
 author = "Sci-Bots"
-author-email = "info@sci-bots.com"
+author-email = "lucas@sci-bots.com"
 home-page = "sci-bots.com"
-license= "BSD-2-Clause"
+license = "BSD-2-Clause"
+requires = ["paho-mqtt", "wheezy.routing", "onoff"]
+requires-python = ">=3.6"
