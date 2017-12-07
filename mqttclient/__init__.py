@@ -1,6 +1,6 @@
 """MQTT Client for Python"""
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 import asyncio
 import inspect
@@ -29,7 +29,7 @@ class MqttClient(MqttMessages):
        Used with the following broker:
        https://github.com/sci-bots/microdrop-3.0/blob/master/MoscaServer.js
     """
-    
+
     def __init__(self, host="localhost", port=1883, base="microdrop"):
         super().__init__()
         self.router = PathRouter()
