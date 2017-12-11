@@ -27,7 +27,7 @@ class MqttClient(MqttMessages):
     """
        Example MqttClient for Application Frameworks (such as Microdrop)
        Used with the following broker:
-       https://github.com/sci-bots/microdrop-3.0/blob/master/MoscaServer.js
+       https://github.com/sci-bots/microdrop-3/blob/master/MoscaServer.js
     """
 
     def __init__(self, host="localhost", port=1883, base="microdrop"):
